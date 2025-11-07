@@ -105,8 +105,8 @@
         </div>
       </div>
       <div class="cta-buttons">
-        <a href="https://excalidraw.com/?addLibrary=https%3A%2F%2Fraw.githubusercontent.com%2Fexcalidraw%2Fexcalidraw-libraries%2Fjessenahat-modern-app-essentials-1762542159915%2Flibraries%2Fjessenahat%2Fmodern-app-essentials.excalidrawlib%3Fraw%3Dtrue" class="btn btn-primary" target="_blank">Add to Excalidraw</a>
-        <a href="https://github.com/Jessenahat/excalidraw-library" class="btn btn-secondary">View on GitHub</a>
+        <a href="https://excalidraw.com/?addLibrary=https%3A%2F%2Fraw.githubusercontent.com%2Fexcalidraw%2Fexcalidraw-libraries%2Fjessenahat-modern-app-essentials-1762542159915%2Flibraries%2Fjessenahat%2Fmodern-app-essentials.excalidrawlib%3Fraw%3Dtrue" class="btn btn-primary" target="_blank">Add to Whiteboard</a>
+        <a href="https://github.com/Jessenahat/excalidraw-library" class="btn btn-secondary">Check Repo</a>
       </div>
     </header>
 
@@ -237,48 +237,54 @@
       </div>
     </section>
 
-    <!-- Info / Stats / Instructions / Footer  -->
-    <section class="info-section">
-      <div class="info-card">
-        <div class="info-icon"><i class="material-icons">bolt</i></div>
-        <div class="info-title">Instant Integration</div>
-        <div class="info-text">Bring smart UI libraries right into your Excalidraw workspace—just click add and start drawing with premium prefabs instantly.</div>
-      </div>
-      <div class="info-card">
-        <div class="info-icon"><i class="fa-solid fa-paint-brush"></i></div>
-        <div class="info-title">Design-Driven Components</div>
-        <div class="info-text">Each prefab is crafted for versatile digital interfaces, from forms and feedback to icons and productivity tools.</div>
-      </div>
-      <div class="info-card">
-        <div class="info-icon"><i class="fa-solid fa-lock"></i></div>
-        <div class="info-title">Curated Color Themes</div>
-        <div class="info-text">A unified palette styled for clarity and distinction—every element pops in Excalidraw and keeps your diagrams organized.</div>
-      </div>
-      <div class="info-card">
-        <div class="info-icon">🌐</div>
-        <div class="info-title">Open & Shareable</div>
-        <div class="info-text">All libraries are free and open source. Contribute, remix, or share with the creative Excalidraw community at any time.</div>
-      </div>
-    </section>
-
-    <section class="stats-section">
-      <div class="stat-card"><div class="stat-main">15+</div><div>Design Elements</div></div>
-      <div class="stat-card"><div class="stat-main">100%</div><div>Free & Open Source</div></div>
-      <div class="stat-card"><div class="stat-main">…</div><div>Creative Possibilities</div></div>
-    </section>
-
-    <section class="instructions-section">
-      <h4>How to add</h4>
-      <div>It's fast and easy: just click the <strong>Add to Excalidraw</strong> button at the top. Your library will be loaded in seconds—explore all prefabs directly in Excalidraw!</div>
-      <div style="margin-top:10px;color:#00ccd1;">Want to publish your own? Contribute to the
-        <a style="color:#00ccd1;" href="https://github.com/excalidraw/excalidraw-libraries" target="_blank">Excalidraw Libraries repo</a>.
-      </div>
-    </section>
-
-    <footer>
-      Made for internship at DevFortress • Powered by Excalidraw libraries • Not affiliated with Excalidraw • Contact: jessicanahat@gmail.com
-    </footer>
+<!-- About / How-to / Signature -->
+<section class="info-section">
+  <div class="info-card">
+    <div class="info-icon"><i class="material-icons">bolt</i></div>
+    <div class="info-title">Open Source & Free</div>
+    <div class="info-text">
+      This library is open source and free to use. Clone, remix, and ship it in your own projects.
+    </div>
   </div>
-</body>
-</html>
+
+  <div class="info-card">
+    <div class="info-icon"><i class="fa-solid fa-paint-brush"></i></div>
+    <div class="info-title">Athena Board – Prefab Library</div>
+    <div class="info-text">
+      Ready-to-use UI prefabs designed for modern apps and dashboards. Drop them into your whiteboard and build faster.
+    </div>
+  </div>
+
+  <div class="info-card">
+    <div class="info-icon">🌐</div>
+    <div class="info-title">Creator</div>
+    <div class="info-text">
+      Assets by <strong>Jessica Nahat</strong>. Contact: <a href="mailto:jessicanahat@gmail.com">jessicanahat@gmail.com</a><br/>
+      GitHub: <a href="https://github.com/Jessenahat" target="_blank" rel="noopener">github.com/Jessenahat</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats-section"> <div class="stat-card"><div class="stat-main">15</div><div>Design Elements</div></div> 
+  <div class="stat-card"><div class="stat-main">100%</div><div>Free & Open Source</div></div> 
+  <div class="stat-card"><div class="stat-main">…</div><div>Creative Possibilities</div></div>
+ </section>
+<section class="instructions-section">
+  <h4>How to add</h4>
+  <div>
+    Click the <strong>Add to Whiteboard</strong> button at the top. The library loads in seconds—use the prefabs directly in Athena Board.
+  </div>
+  
+</section>
+
+<footer>
+  Athena Board – Prefab Library • Open source • © <span id="year"></span> Jessica Nahat •
+  <a href="mailto:jessicanahat@gmail.com" style="color:#EFE3FF">Contact</a>
+</footer>
+
+<script>
+  // keep footer year current
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 
